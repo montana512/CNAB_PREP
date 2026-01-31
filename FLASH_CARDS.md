@@ -1,5 +1,10 @@
 # NETWORKING
 
++ FILL IN THE BLANK
+
+<img width="423" height="259" alt="image" src="https://github.com/user-attachments/assets/e9b18f4b-3410-4bb4-b991-87c3bcbfb61f" />
+
+
 + WHAT IS GPG?
 
   + `GNU Privacy Guard is free encryption software`
