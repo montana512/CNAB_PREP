@@ -1,5 +1,51 @@
 # NETWORKING
 
++ CIRCUIT-LEVEL FIREWALLS WORK AT THE __ LAYER OF THE OSI MODEL AND MONITOR "HANDSHAKING" BETWEEN PACKETS TO DECIDE WHETHER THE TRAFFIC LEGITIMATE.
+
+  + `SESSION LAYER (LAYER 5)`
+
+<br>
+<br>
+<br>
+<br>
+
++ WHAT LAYER OF THE OSI MODEL DO ROUTERS RESIDE?
+
+  + `LAYER3 (NETWORK LAYER)`
+
+<br>
+<br>
+<br>
+<br>
+
++ WHAT DOES `GPG` STAND FOR?
+
+  + `GNU PRIVACY GUARD`
+
+<br>
+<br>
+<br>
+<br>
+
++ FILL IN THE BLANK
+<img width="684" height="294" alt="image" src="https://github.com/user-attachments/assets/cab48bc8-f81e-45e4-bc14-17d1ec75da91" />
+
+  + SOURCE ADDRESS TABLE
+ 
+<br>
+<br>
+<br>
+<br>
+
++ WHAT TYPE OF ENCRYPTION DOES SSL AND TLS USE?
+
+  + `BOTH SYMMETRIC AND ASYMMETRIC ENCRYPTION`
+ 
+<br>
+<br>
+<br>
+<br>
+
 + WHAT ARE CRYPTOGRAPHIC FUNCTIONS?
 
   + `Algorithms or protocols, rules that govern how data is processed, to turn plaintext (unencrypted data) into ciphertext (encrypted data).`
