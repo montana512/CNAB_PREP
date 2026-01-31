@@ -1,8 +1,10 @@
 # NETWORKING
 
 + FILL IN THE BLANK
+<img width="689" height="268" alt="image" src="https://github.com/user-attachments/assets/15a8078b-4568-499c-a1cd-c9849019a987" />
 
-<img width="423" height="259" alt="image" src="https://github.com/user-attachments/assets/e9b18f4b-3410-4bb4-b991-87c3bcbfb61f" />
+  + `192.168.1.1`
+
 
 
 + WHAT IS GPG?
@@ -95,7 +97,7 @@
 + FILL IN THE BLANK BELOW
 <img width="686" height="437" alt="image" src="https://github.com/user-attachments/assets/fa2dcdf7-2b60-4e0f-8f7b-7f8b88ac2aae" />
 
-  + -6
+  + `-6`
  
 <br>
 <br>
