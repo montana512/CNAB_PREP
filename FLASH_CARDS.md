@@ -1,11 +1,173 @@
 # NETWORKING
 
++ WHAT ARE CRYPTOGRAPHIC FUNCTIONS?
+
+  + `Algorithms or protocols, rules that govern how data is processed, to turn plaintext (unencrypted data) into ciphertext (encrypted data).`
+ 
+<br>
+<br>
+<br>
+<br>
+
++ WHAT DOES `PGP` STAND FOR?
+
+  + `PRETTY GOOD PRIVACY`
+
+<br>
+<br>
+<br>
+<br>
+
++ FILL IN THE BLANK
+<img width="477" height="500" alt="image" src="https://github.com/user-attachments/assets/5c63e094-90f9-4226-891f-6b658e83f7f3" />
+
+  + `CLIENT KEY EXCHANGE`
+
+<br>
+<br>
+<br>
+<br>
+
++ FILL IN THE BLANK
+<img width="475" height="500" alt="image" src="https://github.com/user-attachments/assets/7b151ae8-b869-4ebe-acc3-19e70b72baf7" />
+
+  + `DATA LINK LAYER HEADER`
+
+<br>
+<br>
+<br>
+<br>
+
++ FILL IN THE BLANK
+<img width="687" height="293" alt="image" src="https://github.com/user-attachments/assets/1d424e21-2dee-4baf-8124-3166026a1247" />
+
+  + `AP FORWARDING DATABASE`
+
+<br>
+<br>
+<br>
+<br>
+
++ WHAT LAYER DOES `EAPOL` OPERATE?
+
+  + `LAYER 2 (DATA LINK LAYER)`
+ 
+*EAPOL, or Extensible Authentication Protocol over LAN, is a protocol used to provide a secure method of authentication to a network before a user is allowed access. Because it operates directly over the LAN infrastructure, it resides at Layer 2 of the OSI model, the Data Link Layer. This layer is responsible for node-to-node data transfer between two directly connected nodes.*
+
+<br>
+<br>
+<br>
+<br>
+
++ WHAT DOES `EAPOL` STAND FOR?
+
+  + `EXTENSIBLE AUTHENTICATION PROTOCOL OVER LAN`
+ 
+<br>
+<br>
+<br>
+<br>
+
++ THE URGETN AND PUSH FLAGS ENSURE THE DATA PRESENTED IN THOSE PACKETS ARE __?
+
+  + `GIVEN PRIORITY`
+ 
+<br>
+<br>
+<br>
+<br>
+
++ A TCP CONNECT SCAN IS LOUDER BECAUSE ___. A FULL TCP CONNECTION TO A TARRGET IS LIKELY TO BE LOGGED OR TRIP AN IDS AS WELL. BUT AN ADVANTAGE OF THIS SCAN IS THAT A USER DOESNT NEED THE SAME LEVEL OF PRIVILEGES TO RUN AS THEY DO A SYN SCAN.
+
+  + `OF THE ADDITIONAL PACKET SENT TO COMPLETE THE TCP CONNECTION.`
+
+<br>
+<br>
+<br>
+<br>
+
++ HOW MANY BYTES IN A UDP DATAGRAM HEADER?
+
+  + `8 BYTES`
+ 
+<br>
+<br>
+<br>
+<br>
+
++ WHAT LAYER OF THE OSI MODEL DO BRIDGES RESIDE?
+
+  + `DATA LINK LAYER`
+ 
+<br>
+<br>
+<br>
+<br>
+
++ A SYN SCAN SENDS SYN PACKETS TO THE TARGETS PORT. IF THE PORT IS OPEN IT WILL REPLY WITH A SYN-ACK. IF THE PORT IS CLOSED THE TARGET WILL RESPOND WITH A RST. NO RESPONSE INDICATES THE SYN PACKETS SENT TO THE THERGET WERE ___?
+
+  + `FILTERED OUT`
+ 
+*A SYN scan is a type of network scanning technique used to determine the state of a port on a target system. It works by sending SYN (synchronize) packets to the target port. The response to these packets indicates whether the port is open, closed, or filtered.*
+
+*When a SYN packet is sent to an open port, the target system responds with a SYN-ACK (synchronize-acknowledge) packet, indicating that it is ready to establish a connection. If the port is closed, the target system responds with an RST (reset) packet, indicating that the connection is refused. However, if there is no response to the SYN packet, it suggests that the packets are being filtered out, likely by a firewall or other security device, preventing them from reaching the target port.*
+ 
+<br>
+<br>
+<br>
+<br>
+
++ FILL IN THE BLANK
+<img width="685" height="492" alt="image" src="https://github.com/user-attachments/assets/ac24114f-a595-4996-83fd-57d662eece19" />
+
+  + `ETHERNET`
+
+<br>
+<br>
+<br>
+<br>
+
++ SWITCHES STORE THE __ OF EVERY CONNECTED DEVICE IN A CAM TABLE.
+
+  + `LAYER 2 ADDRESS`
+
+*Switches operate at `Layer 2` of the OSI model, also known as the `Data Link Layer`. At this layer, devices are identified by their MAC addresses, which are unique hardware addresses. Switches use these MAC addresses to forward data to the correct destination within the network.*
+
+*A `CAM (Content Addressable Memory)` table is a special type of memory that switches use to quickly look up the MAC address associated with each port. When a switch receives a frame, it checks the destination MAC address against its CAM table. If a match is found, the switch forwards the frame only to the port associated with that MAC address, which reduces network congestion and improves performance. If the destination MAC address is not in the CAM table, the switch floods the frame to all ports (except the one it received the frame on) in a process called unknown unicast flooding. The switch also updates its CAM table by recording the source MAC address and the port it was received on, allowing it to learn the network topology over time.*
+
+<br>
+<br>
+<br>
+<br>
+
++ FILL IN THE BLANK
+<img width="611" height="407" alt="image" src="https://github.com/user-attachments/assets/2e2d2ebe-639d-4bf9-9493-1a5bf627228b" />
+
+  + `INTERNET`
+
+<br>
+<br>
+<br>
+<br>
+
++ __ <- SERVER: SERVER CHANGES ENCRYPTION TO SYMMETRIC. COMMPUTES OWN MASTER KEY, CONFIRMS IT MATCHES CLIENTS. CONFIRMS USE
+
+  + `CLIENT`
+ 
+<br>
+<br>
+<br>
+<br>
+
 + FILL IN THE BLANK
 <img width="689" height="268" alt="image" src="https://github.com/user-attachments/assets/15a8078b-4568-499c-a1cd-c9849019a987" />
 
   + `192.168.1.1`
 
-
+<br>
+<br>
+<br>
+<br>
 
 + WHAT IS GPG?
 
@@ -98,7 +260,17 @@
 <img width="686" height="437" alt="image" src="https://github.com/user-attachments/assets/fa2dcdf7-2b60-4e0f-8f7b-7f8b88ac2aae" />
 
   + `-6`
- 
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 <br>
 <br>
 <br>
@@ -111,6 +283,91 @@
 <br>
 
 # OPERATING SYSTEMS
+
++ IN UNIX, WHAT DOES THE `whereis` COMMAND RETURN?
+
+  + `THE LOCATION OF THE BINARY YOURE LOOKING FOR AND ITS SOURCE AND MAN PAGE`
+
+<br>
+<br>
+<br>
+<br>
+
++ WHAT CONTENT IS IN  /home
+
+  + `HOME DIRECTORIES OF THE COMMON USERS`
+
+<br>
+<br>
+<br>
+<br>
+
++ IN UNIX, HOW WOULD YOU FIND OUT THE PROCESSES THE USER ROOT IS RUNNING?
+
+  + $ `ps -u root`
+ 
+<br>
+<br>
+<br>
+<br>
+
++ WHAT DOES THE WHO COMMAND DO?
+
+  + `READS THE /var/log/utmp FILE AND REVELAS ACTIVE USER SESSION`
+ 
+<br>
+<br>
+<br>
+<br>
+
++ WHAT INFORMATION IS CONTAINED IN KEY_LOCAL_MACHINE?
+
+  + `ADDRESSES ALL ASPECTS OF THE COMPUTERS OPERATION`
+ 
+*The `KEY_LOCAL_MACHINE` hive in the Windows Registry contains configuration information about the computer itself, rather than the user. This includes hardware, software, and operating system settings that apply to all users of the computer. It's a crucial part of the registry because it dictates how the system behaves. For example, it stores device drivers, system services, and security settings. Modifying this hive often requires administrative privileges and can have system-wide effects.*
+
+<br>
+<br>
+<br>
+<br>
+
++ IN THE CIA TRIAD, WHAT DOES ENCRYPTION IMPACT?
+
+  + `CONFIDENTIALITY`
+ 
+<br>
+<br>
+<br>
+<br>
+
++ IN UNIX, WHAT COMMAND CAN "FIND AND REPLACE" TEXT?
+
+  + `sed`
+ 
+*The `sed` command in UNIX is a powerful tool for performing text manipulations, including finding and replacing text within files or input streams. It operates based on regular expressions, allowing for flexible and complex pattern matching. For example, you can use `sed` to replace all occurrences of a specific word in a file, or to substitute a pattern with a different string based on certain conditions. The basic syntax involves specifying the substitution command `s`, followed by the pattern to find, the replacement text, and optional flags to control the behavior of the command.*
+ 
+<br>
+<br>
+<br>
+<br>
+
++ WHAT GUI PROGRAM WOULD YOU USE TO EDIT THE REGISTRY?
+
+  + `Regedit.exe`
+ 
+<br>
+<br>
+<br>
+<br>
+
++ IN UNIX, HOW DO YOU SEE THE FORMAT OF A FILE IF YOURE USURE ABOUT IT?
+
+  + `$ file <file> (that file command)`
+
+<br>
+<br>
+<br>
+<br>
 
 + IN WINDOWS, WHAT COMMAND WOULD YOU USE TO SHARE A FOLDER WITH SOMEONE?
 
@@ -143,7 +400,7 @@
 <br>
 <br>
 
-+ In UNIX, what is the PATH variable? → PATH holds the directories in which the operating system looks for the commands you execute at the command line.
++ In UNIX, what is the PATH variable?
 
   + `PATH HOLDS THE DIRECTORIES IN WHICH THE OPERATING SYSTEM LOOKS FOR THE COMMANDS YOU EXECUTE AT THE COMMAND LINE`
  
@@ -190,8 +447,46 @@
 <br>
 <br>
 <br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 # FUNDAMENTALS AND THEORY OF COMPUTING
+
++ WHAT DOES `LIW` STAND FOR?
+
+  + `LONG INSTRUCTION WORD`
+ 
+<br>
+<br>
+<br>
+<br>
+
++ WHAT IS `x86`?
+
+  + `x86 IS A FAMILY OF INSTRUCTION SET ARCHITECTURES FOR MICROPROCESSORS`
+
+<br>
+<br>
+<br>
+<br>
+
++ FILL IN THE BLANK
+<img width="338" height="307" alt="image" src="https://github.com/user-attachments/assets/8b0e2996-b5bd-423c-a541-9cad0b88782f" />
+
+  + `USER APPLICATIONS`
+
+<br>
+<br>
+<br>
+<br>
 
 + FILL IN THE BLANK BELOW
 <img width="475" height="345" alt="image" src="https://github.com/user-attachments/assets/9b4bf210-91b4-4f65-8065-415f9ef2e191" />
@@ -203,6 +498,60 @@
 <br>
 <br>
 
-+ 
++ HOW MANY HEXADECIMAL CHARACTERS ARE THERE?
 
+  + `16 *REMEMBER 0 COUNTS AS A CHARACTER`
+ 
+<br>
+<br>
+<br>
+<br>
+
++ ARM IS DESIGNED TO BE __, MORE ENERGY-EFFICIENT, AND CREATES LESS HEAT.
+
+  + `SMALLER`
+ 
+*`ARM (Advanced RISC Machine)` architecture is known for its efficiency. Unlike more complex CPU designs, ARM processors are designed to be smaller, which directly contributes to their lower energy consumption and reduced heat output. This makes them ideal for mobile devices, embedded systems, and other applications where power efficiency is crucial. The simplified design also allows for more efficient manufacturing and lower production costs.*
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+# SECURITY
+
++ IN UNIX, WHAT IS THE `UGO` METHOD?
+
+  + `UGO (USERS, GROUPS, OTHERS) IS A WAY TO CHANGE PERMISSIONS OF A FILE USING CHMOD`
+
+<br>
+<br>
+<br>
+<br>
+
++ FILL IN THE BLANK
+<img width="684" height="399" alt="image" src="https://github.com/user-attachments/assets/b843e729-863a-4b14-bc75-75d30af67004" />
+
+  + `GROUP`
+ 
+<br>
+<br>
+<br>
+<br>
 
