@@ -1,5 +1,175 @@
 # NETWORKING
 
++ SWITCHES STORE THE __ OF EVERY CONNECTEDC DEVICE IN A CAM TABLE.
+
+  + `LAYER 2 ADDRESS`
+
+<br>
+<br>
+<br>
+<br>
+
++ WHEN FIREWALLS COMBINE STATEFUL INSPECTION WITH PACKET INSPECTION, IT IS KNOWN AS STATEFUL PACKET INSPECTION. THIS IS THE INSPECTION OF PACKETS NOT ONLY BASED ON PACKET STRUCTURE AND THE DATA CONTAINED IN THE PACKET, BUT ALSO BASED ON __?
+
+  + `WHAT STATE THE CONVERSATION BETWEEN HOSTS IS IN`
+
+<br>
+<br>
+<br>
+<br>
+
++ FILL IN THE BLANK
+<img width="689" height="491" alt="image" src="https://github.com/user-attachments/assets/b67eda99-6731-49fe-85cc-0464addce6fa" />
+
+  + `ETHERNET`
+
+<br>
+<br>
+<br>
+<br>
+
++ FILL IN THE BLANK
+<img width="633" height="356" alt="image" src="https://github.com/user-attachments/assets/0ec368cc-4636-45f8-a100-96508e424144" />
+
+  + `DATA LINK`
+ 
+<br>
+<br>
+<br>
+<br>
+
++ A __ SCAN IS USED TO MAP FIREWALL RULESETS.
+
+  + `TCP ACK`
+ 
+<br>
+<br>
+<br>
+<br>
+
++ IF YOU SEND A PACKET WITH THE __ FLAG SET AND RECEIVE A RST RESPONSE YOU CAN ASSUME THE PORT IS CLOSED.
+
+  + `FIN`
+ 
+<br>
+<br>
+<br>
+<br>
+
++ FILL IN THE BLANK
+<img width="685" height="441" alt="image" src="https://github.com/user-attachments/assets/2c29723a-0b5b-4ccc-890b-ecd09f0ee152" />
+
+  + `SYN`
+ 
+<br>
+<br>
+<br>
+<br>
+
++ WHAT LAYER OF THE OSI MODEL DOES HTTP OPERATE?
+
+  + `LAYER 7 (APPLICATION)`
+
+<br>
+<br>
+<br>
+<br>
+
++ WHAT IS CONVERGENCE?
+
+  + `Convergence is the process by which network devices, such as bridges, switches, or routers, learn of a change in network topology and then agree on what the new topology looks like after the change.`
+
+<br>
+<br>
+<br>
+<br>
+
++ HOW MANY BYTES IS A UDP DATAGRAM HEADER?
+
+  + `8 BYTES`
+
+<br>
+<br>
+<br>
+<br>
+
++ A __ SCAN WILL LOOK FOR ICMP REPLIES INDICATING IF A TARGET IS ALIVE
+
+  + `PING`
+
+<br>
+<br>
+<br>
+<br>
+
++ THE BENEFIT OF SCANNING WITH FIN FLAGS SET IS THAT IT IS MORE LIKELY TO BYPASS FIREWALLS SINCE THEY ARE LOOKING FOR __ PACKETS TO FILTER.
+
+  + `SYN`
+
+<br>
+<br>
+<br>
+<br>
+
++ FILL IN THE BLANK
+<img width="314" height="225" alt="image" src="https://github.com/user-attachments/assets/93fbcde5-a8e0-4cc3-9ab5-899225eacdfc" />
+
+  + `PUSH`
+
+<br>
+<br>
+<br>
+<br>
+
++ RIPv1 ROUTERS BROADCAST THEIR ROUTING TABLE WHILE RIPv2 ROUTERS __
+
+  + `MULTICAST`
+
+<br>
+<br>
+<br>
+<br>
+
++ THE MAC SUBLAYER IS RESPONSIBLE FOR WHAT IS CALLED THE __?
+
+  + `ACCESS METHOD`
+ 
+*The MAC (Media Access Control) sublayer is a part of the Data Link Layer in the OSI model, specifically dealing with how devices on a network gain access to the network medium. The "access method" refers to the rules and procedures that determine which device gets to transmit data at any given time, preventing collisions and ensuring orderly communication. Different network types use different access methods; for example, Ethernet uses CSMA/CD (Carrier Sense Multiple Access with Collision Detection) in older versions and CSMA/CA (Carrier Sense Multiple Access with Collision Avoidance) in wireless networks.*
+
+<br>
+<br>
+<br>
+<br>
+
++ FILL IN THE BLANK
+<img width="685" height="301" alt="image" src="https://github.com/user-attachments/assets/ca093d91-b144-40c8-b390-7a563fb90bae" />
+
+  + `APPLICATION`
+
+<br>
+<br>
+<br>
+<br>
+
++ FILL IN THE BLANK
+<img width="686" height="446" alt="image" src="https://github.com/user-attachments/assets/0953c862-cbb6-4429-9484-5f7738600111" />
+
+  + `ACTIVATION`
+ 
+<br>
+<br>
+<br>
+<br>
+
++ IN ASYMMETRIC ENCRYPTION, WHEN YOU RECEIVE A MESSAGE, WHAT KEY WAS USED BY THE SENDER TO ENCRYPT THE MESSAGE?
+
+  + `THE RECIPIENTS PUBLIC KEY`
+ 
+<br>
+<br>
+<br>
+<br>
+
 + CIRCUIT-LEVEL FIREWALLS WORK AT THE __ LAYER OF THE OSI MODEL AND MONITOR "HANDSHAKING" BETWEEN PACKETS TO DECIDE WHETHER THE TRAFFIC LEGITIMATE.
 
   + `SESSION LAYER (LAYER 5)`
